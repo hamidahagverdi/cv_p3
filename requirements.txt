@@ -1,0 +1,5 @@
+numpy>=1.26
+opencv-python>=4.9
+matplotlib>=3.8
+scikit-image>=0.22
+pydicom>=2.4
