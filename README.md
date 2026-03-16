@@ -309,9 +309,6 @@ These folders contain processed images, visual comparisons, and summary files ge
   <li>If the MRI file is too large for GitHub, it should be stored externally and linked below.</li>
 </ul>
 
-<p><b>MRI file link:</b><br>
-<i>Add Google Drive link here if the DICOM file is not included in the repository.</i></p>
-
 <br>
 
 <h2>Author</h2>
