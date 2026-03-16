@@ -1,1 +1,14 @@
+Speckle noise summary
+=====================
 
+Interpretation rule:
+- Better filters reduce multiplicative speckle noise while preserving edges.
+- Worse filters create blur or leave visible grain.
+
+1.jpeg: best=bilateral_filter, worst=log_bilateral, ranking=bilateral_filter, lee_filter, tv_chambolle, gaussian_blur, median_filter, log_bilateral
+5.png: best=log_bilateral, worst=bilateral_filter, ranking=log_bilateral, gaussian_blur, median_filter, tv_chambolle, lee_filter, bilateral_filter
+6.jpeg: best=log_bilateral, worst=lee_filter, ranking=log_bilateral, gaussian_blur, median_filter, tv_chambolle, bilateral_filter, lee_filter
+
+Expected pattern:
+- lee_filter or log_bilateral usually works best for speckle.
+- gaussian_blur is often among the worst because it removes detail together with noise.
