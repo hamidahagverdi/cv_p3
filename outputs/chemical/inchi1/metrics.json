@@ -1,0 +1,44 @@
+{
+  "image": "inchi1.png",
+  "best_filter": "bilateral_filter",
+  "worst_filter": "median_filter",
+  "ranking": [
+    "bilateral_filter",
+    "nl_means",
+    "gaussian_blur",
+    "mean_blur",
+    "median_filter"
+  ],
+  "metrics": {
+    "mean_blur": {
+      "laplacian_variance": 129.6955,
+      "edge_density": 0.022018,
+      "estimated_noise_sigma": 0.0,
+      "mean_intensity": 250.4609
+    },
+    "gaussian_blur": {
+      "laplacian_variance": 144.6845,
+      "edge_density": 0.030033,
+      "estimated_noise_sigma": 0.0,
+      "mean_intensity": 251.1876
+    },
+    "median_filter": {
+      "laplacian_variance": 114.4279,
+      "edge_density": 0.000268,
+      "estimated_noise_sigma": 0.0,
+      "mean_intensity": 254.9334
+    },
+    "bilateral_filter": {
+      "laplacian_variance": 7073.0751,
+      "edge_density": 0.023255,
+      "estimated_noise_sigma": 0.0,
+      "mean_intensity": 251.936
+    },
+    "nl_means": {
+      "laplacian_variance": 7073.0751,
+      "edge_density": 0.023255,
+      "estimated_noise_sigma": 0.0,
+      "mean_intensity": 251.936
+    }
+  }
+}
