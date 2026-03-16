@@ -1,0 +1,14 @@
+Chemical noise summary
+======================
+
+Interpretation rule:
+- Better filters remove noise while preserving the lines/letters.
+- Worse filters over-smooth the image or leave too much noise.
+
+inchi1.png: best=bilateral_filter, worst=median_filter, ranking=bilateral_filter, nl_means, gaussian_blur, mean_blur, median_filter
+inchi10.png: best=mean_blur, worst=nl_means, ranking=mean_blur, gaussian_blur, median_filter, bilateral_filter, nl_means
+inchi8.png: best=bilateral_filter, worst=median_filter, ranking=bilateral_filter, nl_means, gaussian_blur, mean_blur, median_filter
+
+Expected pattern:
+- median_filter or nl_means usually performs best for this task.
+- mean_blur often performs worst because it destroys fine structures.
