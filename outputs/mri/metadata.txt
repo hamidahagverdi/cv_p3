@@ -1,0 +1,12 @@
+Modality: MR
+StudyDescription: 
+SeriesDescription: Unknown
+Rows: 512
+Columns: 512
+NumberOfSlicesOrFrames: 76
+PixelSpacing: Unknown
+SliceThickness: Unknown
+BitsStored: 16
+PhotometricInterpretation: MONOCHROME2
+Manufacturer: 
+MagneticFieldStrength: Unknown
