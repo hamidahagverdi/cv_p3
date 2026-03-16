@@ -1,0 +1,51 @@
+{
+  "image": "1.jpeg",
+  "best_filter": "bilateral_filter",
+  "worst_filter": "log_bilateral",
+  "ranking": [
+    "bilateral_filter",
+    "lee_filter",
+    "tv_chambolle",
+    "gaussian_blur",
+    "median_filter",
+    "log_bilateral"
+  ],
+  "metrics": {
+    "gaussian_blur": {
+      "laplacian_variance": 404.7067,
+      "edge_density": 0.320959,
+      "estimated_noise_sigma": 0.006852,
+      "mean_intensity": 128.4895
+    },
+    "median_filter": {
+      "laplacian_variance": 750.0862,
+      "edge_density": 0.263861,
+      "estimated_noise_sigma": 0.012666,
+      "mean_intensity": 127.1223
+    },
+    "bilateral_filter": {
+      "laplacian_variance": 4266.3238,
+      "edge_density": 0.340647,
+      "estimated_noise_sigma": 0.039854,
+      "mean_intensity": 127.0327
+    },
+    "lee_filter": {
+      "laplacian_variance": 3003.9029,
+      "edge_density": 0.338866,
+      "estimated_noise_sigma": 0.034456,
+      "mean_intensity": 126.5829
+    },
+    "tv_chambolle": {
+      "laplacian_variance": 2692.5236,
+      "edge_density": 0.311292,
+      "estimated_noise_sigma": 0.022984,
+      "mean_intensity": 127.2514
+    },
+    "log_bilateral": {
+      "laplacian_variance": 681.2063,
+      "edge_density": 0.009073,
+      "estimated_noise_sigma": 0.002544,
+      "mean_intensity": 234.4002
+    }
+  }
+}
