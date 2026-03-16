@@ -1,4 +1,4 @@
-# Assignment Report Template
+# Report
 
 ## 1. Noise Removal and Reconstruction
 
