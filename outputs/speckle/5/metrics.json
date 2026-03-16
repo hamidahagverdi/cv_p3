@@ -1,0 +1,51 @@
+{
+  "image": "5.png",
+  "best_filter": "log_bilateral",
+  "worst_filter": "bilateral_filter",
+  "ranking": [
+    "log_bilateral",
+    "gaussian_blur",
+    "median_filter",
+    "tv_chambolle",
+    "lee_filter",
+    "bilateral_filter"
+  ],
+  "metrics": {
+    "gaussian_blur": {
+      "laplacian_variance": 19.7867,
+      "edge_density": 0.044324,
+      "estimated_noise_sigma": 0.001454,
+      "mean_intensity": 78.0805
+    },
+    "median_filter": {
+      "laplacian_variance": 44.62,
+      "edge_density": 0.046515,
+      "estimated_noise_sigma": 0.00266,
+      "mean_intensity": 82.1232
+    },
+    "bilateral_filter": {
+      "laplacian_variance": 6.1034,
+      "edge_density": 0.005752,
+      "estimated_noise_sigma": 0.001382,
+      "mean_intensity": 84.7791
+    },
+    "lee_filter": {
+      "laplacian_variance": 4.1025,
+      "edge_density": 0.00352,
+      "estimated_noise_sigma": 0.00109,
+      "mean_intensity": 85.537
+    },
+    "tv_chambolle": {
+      "laplacian_variance": 10.7567,
+      "edge_density": 0.017051,
+      "estimated_noise_sigma": 0.00109,
+      "mean_intensity": 83.7474
+    },
+    "log_bilateral": {
+      "laplacian_variance": 1924.5424,
+      "edge_density": 0.036439,
+      "estimated_noise_sigma": 0.001382,
+      "mean_intensity": 181.1542
+    }
+  }
+}
